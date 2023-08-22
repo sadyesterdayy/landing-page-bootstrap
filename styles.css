@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+
+:root {
+  --header-height: 50px;
+  --h2-height: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: calc(var(--header-height) / 2);
+}
+
+header > h2 {
+  font-size: 20px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  line-height: var(--h2-height);
+}
+
+/* hero section */
+main {
+  width: 100%;
+  height: calc(100vh - var(--header-height) - var(--h2-height));
+  background-color: #37517e;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80%;
+  min-width: 200px;
+  /* background-color: aqua; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section > div {
+  width: 100%;
+  min-width: 200px;
+  height: fit-content;
+  /* background-color: antiquewhite; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-1 > h1 {
+  font-size: xx-large;
+  color: white;
+  text-align: center;
+}
+
+.container-1 > h5 {
+  font-weight: lighter;
+  font-size: 15px;
+  margin-top: 5px;
+  /* color: hsla(0, 0%, 100%, 0.6); */
+  color: white;
+  opacity: 60%;
+  text-align: center;
+}
+
+.container-1 > div {
+  display: flex;
+  justify-content: center;
+}
+
+.container-1 > div > #btn-1 {
+  background-color: transparent;
+  border: solid 1px;
+  padding: 10px 25px 10px 25px;
+  margin-top: 45px;
+}
+
+.container-1 > div > #btn-1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-1 > div > #btn-2 {
+  margin-top: 45px;
+}
+
+.container-2 > div {
+  display: flex;
+  justify-content: center;
+}
+
+.pict-1 {
+  margin-top: 20px;
+  width: 400px;
+  min-width: 300px;
+}
+
+@media only screen and (min-width: 640px) {
+
+}
+@media only screen and (min-width: 768px) {
+  .hero-section {
+    flex-wrap: nowrap;
+  }
+}
+@media only screen and (min-width: 1024px) {
+
+}
+@media only screen and (min-width: 1280px) {
+
+}
+@media only screen and (min-width: 1536px) {
+
+}
